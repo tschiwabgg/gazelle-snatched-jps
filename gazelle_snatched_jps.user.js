@@ -1385,11 +1385,14 @@ var snatched_groups = {};
 
 	/* Scan current page */
 	if (/\/torrents\.php/.test(document.URL)) {
-		scan_current_page();
-        (new MutationObserver(scan_ajax)).observe(document.getElementById('ajax_torrents'), {childList: true, subtree: true});
+        if ($('#ajax_torrents').length > 0 ) {
 
-        function scan_ajax(changes, observer) {
             scan_current_page();
+            (new MutationObserver(scan_ajax)).observe(document.getElementById('ajax_torrents'), {childList: true, subtree: true});
+
+            function scan_ajax(changes, observer) {
+                scan_current_page();
+            }
         }
 	}
 
