@@ -8,8 +8,8 @@
 // @grant           GM_xmlhttpRequest
 // @grant           GM_registerMenuCommand
 // @grant           GM_getResourceText
-// @version         1.0.0
-// @date            2022-07-30
+// @version         1.0.1
+// @date            2022-07-31
 // ==/UserScript==
 
 var snatched_groups = {};
