@@ -190,12 +190,12 @@ var snatched_groups = {};
 	}
 
 	var GROUP_SNATCHED = 'font-style:italic; font-weight:bolder; text-decoration:underline;';
-	var T_SNATCHED = 'color: #E5B244 !important; text-decoration:line-through !important; display:inline; background:url(' + getIconImageUrl('snatched') + ') top right no-repeat; padding:1px 18px 1px 0;';
-	var UPLOADED = 'color: #63b708 !important; text-decoration:line-through !important; display:inline; background:url(' + getIconImageUrl('uploaded') + ') top right no-repeat; padding:1px 18px 1px 0;';
-	var LEECHING = 'color: #F70000 !important; display:inline; background:url(' + getIconImageUrl('down') + ') top right no-repeat; padding:1px 18px 1px 0;';
+	var T_SNATCHED = 'color: #E5B244 !important; text-decoration:line-through !important; display:inline; background:url(' + getIconImageUrl('snatched') + ') top right no-repeat; padding:1px 18px 1px 0 !important;';
+	var UPLOADED = 'color: #63b708 !important; text-decoration:line-through !important; display:inline; background:url(' + getIconImageUrl('uploaded') + ') top right no-repeat; padding:1px 18px 1px 0 !important;';
+	var LEECHING = 'color: #F70000 !important; display:inline; background:url(' + getIconImageUrl('down') + ') top right no-repeat; padding:1px 18px 1px 0 !important;';
 	var SEEDING = 'font-style:italic; text-decoration:none !important;';
-	var BOOKMARKED = 'background:url(' + getIconImageUrl('bookmark') + ') top right no-repeat; padding:1px 18px 1px 0;';
-	var WHATCD_GROUP = 'background:url(' + getIconImageUrl('whatcd') + ') top right no-repeat; padding:1px 22px 1px 0;';
+	var BOOKMARKED = 'background:url(' + getIconImageUrl('bookmark') + ') top right no-repeat; padding:1px 18px 1px 0 !important;';
+	var WHATCD_GROUP = 'background:url(' + getIconImageUrl('whatcd') + ') top right no-repeat; padding:1px 22px 1px 0 !important;';
 	// var UPLOADED = 'color: #63b708 !important; text-decoration:line-through !important; display:inline; background:url(https://whatimg.com/i/8oux68.png) top right no-repeat; padding:1px 18px 1px 0;';
 	// var LEECHING = 'color: #F70000 !important; display:inline; background:url(https://whatimg.com/i/ay3zvb.png) top right no-repeat; padding:1px 18px 1px 0;';
 	// var SEEDING = 'font-style:italic; text-decoration:none !important;';
