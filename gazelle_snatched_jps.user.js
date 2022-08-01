@@ -8,8 +8,8 @@
 // @grant           GM_xmlhttpRequest
 // @grant           GM_registerMenuCommand
 // @grant           GM_getResourceText
-// @version         1.0.1
-// @date            2022-07-31
+// @version         1.0.2
+// @date            2022-08-01
 // ==/UserScript==
 
 var snatched_groups = {};
@@ -840,7 +840,7 @@ var snatched_groups = {};
 		var d = snatch_cache.unserialize();
 		var g = group_cache.unserialize();
 		/*torrent_table.find('div.group_info').each(function(i) {*/
-        torrent_table.find('tr.torrent td:nth-child(3)').each(function(i) {
+        torrent_table.find('tr.torrent td:nth-child(3),tr.torrent_redline td:nth-child(3)').each(function(i) {
 				/* Find group and torrent ID */
 			var group_id;
 			var torrent_id;
